@@ -24,7 +24,7 @@ public class PostActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_post);
 
-        final ImageView img = (ImageView) findViewById(R.id.imageView);
+        img = (ImageView) findViewById(R.id.imageView);
         img.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
